@@ -1,0 +1,54 @@
+.brd{
+  border:1px solid black
+}
+.container {
+  max-width: 960px;
+  margin: 1% auto;
+  border:2px solid rgb(248, 247, 247);
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0 0 10px 0;
+}
+
+input[type="text"] {
+  width: 50%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+* {
+  text-align: center;
+  font-size: 13px  !important;
+}
+
+
+th{
+  background-color: #ccc;
+}
+
+.headerBox
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+input
+{
+height: 30px !important;
+}
+
+.bodyContainer
+{
+padding: 10px;
+height: 293px;
+overflow: auto;
+}
+.headerBox
+{
+padding-left: 10px; height: 35px;
+}

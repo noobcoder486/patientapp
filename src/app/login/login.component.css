@@ -1,0 +1,46 @@
+    .mainDiv {
+        height: 400px;
+        width: 400px;
+        background-color: white;
+        margin: 10% auto;
+        border-radius: 12px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    .login {
+        width: 100%;
+        border-radius: 30px;
+        height: 30px;
+        background-color: blueviolet;
+        color: white;
+    }
+
+    .bodyDiv {
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .textBox {
+        width: 300px;
+    }
+
+    .headerDiv {
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+        height: 90px;
+        width: 100%;
+        background-color: rgb(120, 64, 211);
+    }
+
+    .HeaderText {
+        font-size: 19px;
+        font-weight: 600;
+        color: white;
+    }
+
+    button {
+        border: none;
+    }

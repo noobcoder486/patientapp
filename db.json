@@ -1,0 +1,35 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "FirstName": "adminn",
+      "LastName": "demo",
+      "Phone": 1234567890,
+      "Email": "admin@demo.com",
+      "Address1": "test1",
+      "Address2": "test2",
+      "City": "test1",
+      "State": "test3",
+      "ZipCode": "100000"
+    },
+    {
+      "id": 2,
+      "FirstName": "admin1",
+      "LastName": "admin1",
+      "Phone": 1234567890,
+      "Email": "admin1@gmail.com",
+      "Address1": "test2",
+      "Address2": "test2",
+      "City": "test1",
+      "State": "test2",
+      "ZipCode": "100000"
+    }
+  ],
+  "users": [
+    {
+      "UserName": "shubham@gmail.com",
+      "Password": "admin@123",
+      "token": "a3b8a9c7-6962-41fe-a7ab-3636da2c57c6"
+    }
+  ]
+}

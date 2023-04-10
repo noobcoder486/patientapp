@@ -1,0 +1,122 @@
+[
+    {
+      "id":1,
+      "FirstName": "John",
+      "LastName": "Doe",
+      "Phone": "555-123-4567",
+      "Email": "johndoe@example.com",
+      "Address1": "123 Main St",
+      "Address2": "Apt 4B",
+      "City": "Anytown",
+      "State": "CA",
+      "ZipCode": "12345"
+    },
+    {
+      "id":2,
+      "FirstName": "Jane",
+      "LastName": "Smith",
+      "Phone": "555-234-5678",
+      "Email": "janesmith@example.com",
+      "Address1": "456 Oak Ave",
+      "Address2": "",
+      "City": "Smallville",
+      "State": "NY",
+      "ZipCode": "67890"
+    },
+    {
+      "id":3,
+      "FirstName": "Bob",
+      "LastName": "Johnson",
+      "Phone": "555-345-6789",
+      "Email": "bjohnson@example.com",
+      "Address1": "789 Maple St",
+      "Address2": "Unit 3",
+      "City": "Metropolis",
+      "State": "IL",
+      "ZipCode": "45678"
+    },
+    {
+      "id":4,
+      "FirstName": "Samantha",
+      "LastName": "Lee",
+      "Phone": "555-456-7890",
+      "Email": "slee@example.com",
+      "Address1": "987 Pine St",
+      "Address2": "",
+      "City": "Hometown",
+      "State": "TX",
+      "ZipCode": "34567"
+    },
+    {
+      "id":5,
+      "FirstName": "William",
+      "LastName": "Davis",
+      "Phone": "555-567-8901",
+      "Email": "wdavis@example.com",
+      "Address1": "234 Elm St",
+      "Address2": "Suite 5",
+      "City": "Big City",
+      "State": "CA",
+      "ZipCode": "23456"
+    },
+    {
+      "id":6,
+      "FirstName": "Emily",
+      "LastName": "Anderson",
+      "Phone": "555-678-9012",
+      "Email": "eanderson@example.com",
+      "Address1": "567 Oak St",
+      "Address2": "",
+      "City": "Smallville",
+      "State": "NY",
+      "ZipCode": "67890"
+    },
+    {
+      "id":7,
+      "FirstName": "David",
+      "LastName": "Brown",
+      "Phone": "555-789-0123",
+      "Email": "dbrown@example.com",
+      "Address1": "890 Maple Ave",
+      "Address2": "",
+      "City": "Metropolis",
+      "State": "IL",
+      "ZipCode": "45678"
+    },
+    {
+      "id":8,
+      "FirstName": "Olivia",
+      "LastName": "Garcia",
+      "Phone": "555-890-1234",
+      "Email": "ogarcia@example.com",
+      "Address1": "123 Pine St",
+      "Address2": "",
+      "City": "Hometown",
+      "State": "TX",
+      "ZipCode": "34567"
+    },
+    {
+      "id":9,
+      "FirstName": "Jacob",
+      "LastName": "Wilson",
+      "Phone": "555-901-2345",
+      "Email": "jwilson@example.com",
+      "Address1": "456 Elm St",
+      "Address2": "",
+      "City": "Big City",
+      "State": "CA",
+      "ZipCode": "23456"
+    },
+    {
+      "id":10,
+      "FirstName": "Shubham",
+      "LastName": "Dubey",
+      "Phone": "8291627227",
+      "Email": "shubhamk3120@gmail.com",
+      "Address1": "Kandivali",
+      "Address2": "",
+      "City": "Mumbai",
+      "State": "MH",
+      "ZipCode": "400101"
+    }
+]

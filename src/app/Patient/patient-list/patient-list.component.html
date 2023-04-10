@@ -1,0 +1,93 @@
+<div class="row">
+  <div class="col-12">
+      <div class="mainContainer" style="background-color: rgb(255, 255, 255);box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; border-radius: 8px; height: 364px;">
+          <div class="headerBox" >
+            <div class="mt-2">
+              <label style="color: rgb(11, 11, 138);font-weight: 550;">Patient List</label>
+            </div>
+
+            <div  class="mt-2" style="padding-right: 10px; padding-top: 10px;">
+                <input type="text" class="form-control" (change)="searchPatient(name)" style="float: right !important; width: auto;" placeholder="Search by Name"
+                  [(ngModel)]="name">
+            </div>
+          </div>
+          <hr>
+
+          <div class="bodyContainer">
+            <div class="table-responsive">
+              <table class="table" style="width: 100%;margin: 0 auto;">
+                <thead>
+                  <tr style="height: 10px">
+                    <td style="background-color: rgb(211, 211, 211);font-weight: 600;height: 5px !important;">FirstName</td>
+                    <td style="background-color: rgb(211, 211, 211);font-weight: 600;height: 5px !important;" >LastName</td>
+                    <td style="background-color: rgb(211, 211, 211);font-weight: 600;height: 5px !important;" >Address</td>
+                    <td style="background-color: rgb(211, 211, 211);font-weight: 600;height: 5px !important;" >Action</td>
+                  </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                  <tr *ngFor="let item of output">
+                    <td>{{item.FirstName}}</td>
+                    <td>{{item?.LastName}}</td>
+                    <td>{{item.Address1}}</td>
+                    <td>
+                      <span style="padding-right: 10px;cursor: pointer;"><i class="bi bi-eye-fill" style="color: rgb(92, 10, 168)"
+                          (click)="viewPatient(item)"></i></span>
+                      <span style="padding-right: 10px;cursor: pointer;"><i class="bi bi-pencil-fill" style="color: rgb(92, 10, 168)"
+                          (click)="patientEditView(item)"></i></span>
+                      <span style="padding-right: 10px;cursor: pointer;"><i class="bi bi-x-circle-fill" style="color: rgb(92, 10, 168)"
+                          (click)="deletePatient(item)"></i></span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<!-- <div class="container">
+  <br />
+  <div class="row">
+    <div class="col">
+      <h3 style="color: rgb(11, 11, 138);font-weight: 550;">Patient List</h3>    </div>
+    <div class="col">
+      <input type="text" (change)="searchPatient(name)" style="float: right !important;" placeholder="Search by Name"
+        [(ngModel)]="name">
+    </div>
+  </div><hr />
+  <br />
+
+  <div class="row">
+    <div class="col-12">
+      <div class="table-responsive">
+        <table class="table" style="width: 100%;margin: 0 auto;">
+          <thead>
+            <tr style="height: 10px">
+              <td style="background-color: rgb(211, 211, 211);font-weight: 600;height: 5px !important;">FirstName</td>
+              <td style="background-color: rgb(211, 211, 211);font-weight: 600;height: 5px !important;" >LastName</td>
+              <td style="background-color: rgb(211, 211, 211);font-weight: 600;height: 5px !important;" >Address</td>
+              <td style="background-color: rgb(211, 211, 211);font-weight: 600;height: 5px !important;" >Action</td>
+            </tr>
+          </thead>
+          <tbody class="table-group-divider">
+            <tr *ngFor="let item of output">
+              <td>{{item.FirstName}}</td>
+              <td>{{item?.LastName}}</td>
+              <td>{{item.Address1}}</td>
+              <td>
+                <span style="padding-right: 10px;cursor: pointer;"><i class="bi bi-eye-fill" style="color: rgb(92, 10, 168)"
+                    (click)="viewPatient(item)"></i></span>
+                <span style="padding-right: 10px;cursor: pointer;"><i class="bi bi-pencil-fill" style="color: rgb(92, 10, 168)"
+                    (click)="patientEditView(item)"></i></span>
+                <span style="padding-right: 10px;cursor: pointer;"><i class="bi bi-x-circle-fill" style="color: rgb(92, 10, 168)"
+                    (click)="deletePatient(item)"></i></span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div> -->
